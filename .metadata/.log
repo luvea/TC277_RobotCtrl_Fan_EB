@@ -1,0 +1,146 @@
+!SESSION 2021-04-02 08:42:19.419 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -data W:\AURIX\Robot\TC277_RobotCtrl_ADCQueue_zhaojing\EB -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-02 08:42:20.704
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2021-04-06 07:46:23.961 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -data W:\AURIX\Robot\TC277_RobotCtrl_ADCQueue_zhaojing\EB -os win32 -ws win32 -arch x86_64
+
+!ENTRY dreisoft.tresos.launcher2.plugin 4 2 2021-04-06 10:33:19.370
+!MESSAGE Problems occurred when invoking code from plug-in: "dreisoft.tresos.launcher2.plugin".
+!STACK 0
+java.lang.IllegalStateException: ProjectManager is not initilalized
+	at dreisoft.tresos.launcher2.project.ProjectManager.getTresosProject(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry.getTresosProject(Unknown Source)
+	at dreisoft.tresos.guidedconfig.api.context.internal.listeners.ProjectSelectionChangeListener.selectionChanged(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.WorkerThread$2.doRun(Unknown Source)
+	at dreisoft.tresos.lib2.job.AbstractWorkerJob.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.internal.JobWrapper.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface 4 0 2021-04-06 10:33:19.372
+!MESSAGE An error has occurred. See error log for more details.
+!STACK 0
+java.lang.IllegalStateException: ProjectManager is not initilalized
+	at dreisoft.tresos.launcher2.project.ProjectManager.getTresosProject(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry.getTresosProject(Unknown Source)
+	at dreisoft.tresos.guidedconfig.api.context.internal.listeners.ProjectSelectionChangeListener.selectionChanged(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.WorkerThread$2.doRun(Unknown Source)
+	at dreisoft.tresos.lib2.job.AbstractWorkerJob.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.internal.JobWrapper.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY dreisoft.tresos.lib2.plugin 4 2 2021-04-06 10:33:20.170
+!MESSAGE Problems occurred when invoking code from plug-in: "dreisoft.tresos.lib2.plugin".
+!STACK 0
+java.lang.IllegalStateException: Job manager has been shut down.
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1104)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:462)
+	at dreisoft.tresos.lib2.job.JobManager.d(Unknown Source)
+	at dreisoft.tresos.lib2.job.JobManager.a(Unknown Source)
+	at dreisoft.tresos.lib2.job.JobManager.done(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+!SESSION 2021-04-06 19:31:50.662 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY dreisoft.tresos.launcher2.plugin 4 2 2021-04-07 14:57:05.800
+!MESSAGE Problems occurred when invoking code from plug-in: "dreisoft.tresos.launcher2.plugin".
+!STACK 0
+java.lang.IllegalStateException: ProjectManager is not initilalized
+	at dreisoft.tresos.launcher2.project.ProjectManager.getTresosProject(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry.getTresosProject(Unknown Source)
+	at dreisoft.tresos.guidedconfig.api.context.internal.listeners.ProjectSelectionChangeListener.selectionChanged(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.WorkerThread$2.doRun(Unknown Source)
+	at dreisoft.tresos.lib2.job.AbstractWorkerJob.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.internal.JobWrapper.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface 4 0 2021-04-07 14:57:05.803
+!MESSAGE An error has occurred. See error log for more details.
+!STACK 0
+java.lang.IllegalStateException: ProjectManager is not initilalized
+	at dreisoft.tresos.launcher2.project.ProjectManager.getTresosProject(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry.getTresosProject(Unknown Source)
+	at dreisoft.tresos.guidedconfig.api.context.internal.listeners.ProjectSelectionChangeListener.selectionChanged(Unknown Source)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2$1.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at dreisoft.tresos.launcher2.navigator.content.TresosContentRegistry$2.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.WorkerThread$2.doRun(Unknown Source)
+	at dreisoft.tresos.lib2.job.AbstractWorkerJob.run(Unknown Source)
+	at dreisoft.tresos.lib2.job.internal.JobWrapper.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY dreisoft.tresos.lib2.plugin 4 2 2021-04-07 14:57:06.592
+!MESSAGE Problems occurred when invoking code from plug-in: "dreisoft.tresos.lib2.plugin".
+!STACK 0
+java.lang.IllegalStateException: Job manager has been shut down.
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1104)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:462)
+	at dreisoft.tresos.lib2.job.JobManager.d(Unknown Source)
+	at dreisoft.tresos.lib2.job.JobManager.a(Unknown Source)
+	at dreisoft.tresos.lib2.job.JobManager.done(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
+!SESSION 2021-04-08 19:01:16.172 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_35
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY dreisoft.tresos.lib2.plugin 4 2 2021-04-08 19:43:44.559
+!MESSAGE Problems occurred when invoking code from plug-in: "dreisoft.tresos.lib2.plugin".
+!STACK 0
+java.lang.IllegalStateException: Job manager has been shut down.
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1104)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:462)
+	at dreisoft.tresos.lib2.job.JobManager.d(Unknown Source)
+	at dreisoft.tresos.lib2.job.JobManager.a(Unknown Source)
+	at dreisoft.tresos.lib2.job.JobManager.done(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:71)
