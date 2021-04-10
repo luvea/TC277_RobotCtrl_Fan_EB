@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
-<window height="900" width="1440" x="521" y="362">
+<window height="900" maximized="true" width="1440" x="31" y="31">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -14,21 +14,15 @@
 <coolItem id="dreisoft.tresos.guidedconfig.api.actionSet.Wizards" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="dreisoft.tresos.launcher2.api.actionSet.Build" itemType="typeToolBarContribution" x="80" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="57" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="191" y="22"/>
-<coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="dreisoft.tresos.datamodel2.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page focus="true" label="Workspace - Studio">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
@@ -38,9 +32,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="dreisoft.tresos.launcher2.api.views.ErrorLog" partName="Error Log">
-<viewState COL_ENTRY_TYPE="100" COL_ERROR_CODE="100" COL_MESSAGE="400" COL_ORIGIN="200" COL_TIMESTAMP="100">
-<ErrorLogDetails height="500" pos_x="710" pos_y="265" width="500"/>
-</viewState>
+<viewState COL_ENTRY_TYPE="100" COL_ERROR_CODE="100" COL_MESSAGE="400" COL_ORIGIN="200" COL_TIMESTAMP="100"/>
 </view>
 <view id="dreisoft.tresos.guidedconfig.api.views.Sidebar" partName="Sidebar"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
@@ -91,7 +83,7 @@
 <fastViewBars/>
 <layout>
 <mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b845568">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@13b9a2fd">
 <folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -99,15 +91,15 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@c4be179" ratio="0.74964637" ratioLeft="1060" ratioRight="354" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b845568">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5a7691c0" ratio="0.74964637" ratioLeft="1060" ratioRight="354" relationship="2" relative="org.eclipse.ui.internal.ViewStack@13b9a2fd">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23782085" ratioLeft="454" ratioRight="1455" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b845568"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@4b7c8f7f" ratio="0.738699" ratioLeft="670" ratioRight="237" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.1651628" ratioLeft="421" ratioRight="2128" relationship="2" relative="org.eclipse.ui.internal.ViewStack@13b9a2fd"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@32c5f9fe" ratio="0.7989556" ratioLeft="612" ratioRight="154" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="dreisoft.tresos.launcher2.api.views.ErrorLog" appearance="2" expanded="2">
 <page content="dreisoft.tresos.launcher2.api.views.ErrorLog" label="Error Log"/>
 <page content="dreisoft.tresos.launcher2.api.views.Problems" label="Problems View"/>
@@ -119,7 +111,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5eb10190" ratio="0.54946995" ratioLeft="622" ratioRight="510" relationship="2" relative="org.eclipse.ui.internal.ViewStack@4b7c8f7f">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@639facbc" ratio="0.54946995" ratioLeft="622" ratioRight="510" relationship="2" relative="org.eclipse.ui.internal.ViewStack@32c5f9fe">
 <folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="dreisoft.tresos.launcher2.gui.views.description.DescriptionPage" label="LabelNotFound"/>
@@ -130,7 +122,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@36ddc581" ratio="0.9332914" ratioLeft="1483" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@8059dbd" ratio="0.69964665" ratioLeft="792" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="dreisoft.tresos.workflow.api.views.Workflow" appearance="2" expanded="2">
 <page content="dreisoft.tresos.workflow.api.views.Workflow" label="Workflows"/>
 <page content="dreisoft.tresos.guidedconfig.api.views.Sidebar" label="Sidebar"/>
@@ -140,7 +132,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@d032cf5" ratio="0.7989556" ratioLeft="612" ratioRight="154" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1b845568">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7b9a29" ratio="0.7989556" ratioLeft="612" ratioRight="154" relationship="4" relative="org.eclipse.ui.internal.ViewStack@13b9a2fd">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -169,9 +161,5 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="beizhu" tooltip="TC277_RobotCtrl_ADCQueue_MCAL/beizhu">
-<persistable path="/TC277_RobotCtrl_ADCQueue_MCAL/beizhu"/>
-</file>
-</mruList>
+<mruList/>
 </workbench>

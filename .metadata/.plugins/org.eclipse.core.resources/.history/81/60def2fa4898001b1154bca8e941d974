@@ -1,3 +1,0 @@
-此版本在备份文件中TC277_RobotCtrl_ADCQueue_MCAL（4.5四电机正常）eb基础上修改
-
-把adc采样改成四电机同时采样。
