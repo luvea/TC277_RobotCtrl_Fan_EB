@@ -904,7 +904,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT"/>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -924,21 +924,13 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="10000"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="5000"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="10000"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="5000"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -963,9 +955,7 @@
                                 </d:var>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
-                                       value="TRIG_FROM_PREVIOUS_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="CCU0_TRIG_OF_CHANNEL"/>
                                 <d:var name="TomChannelOneShotMode" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1025,9 +1015,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1047,25 +1035,15 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="TomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1081,9 +1059,7 @@
                                 </d:var>
                                 <d:var name="TomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -1148,9 +1124,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1170,25 +1144,15 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="TomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1204,9 +1168,7 @@
                                 </d:var>
                                 <d:var name="TomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -1271,9 +1233,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1293,25 +1253,15 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="TomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1327,9 +1277,7 @@
                                 </d:var>
                                 <d:var name="TomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -1394,9 +1342,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1416,25 +1362,15 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="TomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1450,9 +1386,7 @@
                                 </d:var>
                                 <d:var name="TomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -1517,9 +1451,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1539,25 +1471,15 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="TomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1573,9 +1495,7 @@
                                 </d:var>
                                 <d:var name="TomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -1640,9 +1560,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="TomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="TomChOutputDisableOnTgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1662,25 +1580,15 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="TomChannelPeriodCompareValCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChannelDutyCycleCompareValCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChPeriodCompareShadowValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="TomChDCycCompareShadowValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="TomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="TomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -1696,9 +1604,7 @@
                                 </d:var>
                                 <d:var name="TomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="TomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -7352,7 +7258,7 @@
                                 <a:a name="IMPORTER_INFO" value="@DEF"/>
                               </d:var>
                               <d:var name="AtomAgcIntTriggerFromChannel7" 
-                                     type="BOOLEAN" value="true"/>
+                                     type="BOOLEAN" value="false"/>
                             </d:ctr>
                           </d:ctr>
                           <d:lst name="AtomChannel" type="MAP">
@@ -7559,7 +7465,7 @@
                                 <d:var name="AtomChannelCompareValueCm1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="10000"/>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
@@ -7713,7 +7619,7 @@
                                 <d:var name="AtomChannelCompareValueCm1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="10000"/>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
@@ -7867,7 +7773,7 @@
                                 <d:var name="AtomChannelCompareValueCm1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="10000"/>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
@@ -8021,7 +7927,7 @@
                                 <d:var name="AtomChannelCompareValueCm1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="10000"/>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
@@ -8175,7 +8081,7 @@
                                 <d:var name="AtomChannelCompareValueCm1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="10000"/>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
@@ -8329,7 +8235,7 @@
                                 <d:var name="AtomChannelCompareValueCm1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="10000"/>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
@@ -8439,7 +8345,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_GTM_DRIVER"/>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -8485,7 +8391,7 @@
                                 <d:var name="AtomChShadowCompareValSr1" 
                                        type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="true"/>
+                                       type="BOOLEAN" value="false"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false"/>
                                 <d:var name="AtomChResetCn0OnForceUpdate" 
@@ -8626,7 +8532,7 @@
                                 <a:a name="IMPORTER_INFO" value="@DEF"/>
                               </d:var>
                               <d:var name="AtomAgcIntTriggerFromChannel7" 
-                                     type="BOOLEAN" value="true"/>
+                                     type="BOOLEAN" value="false"/>
                             </d:ctr>
                           </d:ctr>
                           <d:lst name="AtomChannel" type="MAP">
@@ -8635,9 +8541,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -8654,9 +8558,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -8678,29 +8580,19 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="10000"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="5000"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="10000"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="5000"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -8725,9 +8617,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
-                                       value="TRIG_FROM_PREVIOUS_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="CCU0_TRIG_OF_CHANNEL"/>
                                 <d:var name="AtomChSomcTimebaseForComparison" 
                                        type="ENUMERATION" value="TBU_TS1">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -8812,9 +8702,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -8831,9 +8719,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -8850,33 +8736,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -8892,9 +8766,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -8984,9 +8856,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -9003,9 +8873,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9027,33 +8895,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9069,9 +8925,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -9161,9 +9015,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -9180,9 +9032,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9204,33 +9054,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9246,9 +9084,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -9338,9 +9174,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -9357,9 +9191,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9381,33 +9213,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9423,9 +9243,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -9515,9 +9333,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -9534,9 +9350,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9558,33 +9372,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9600,9 +9402,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -9692,9 +9492,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -9711,9 +9509,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9735,33 +9531,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -9777,9 +9561,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -9929,7 +9711,7 @@
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="true"/>
+                                       type="BOOLEAN" value="false"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13035,9 +12817,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -13054,9 +12834,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13073,29 +12851,19 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="10000"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="5000"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="10000"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="5000"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13120,9 +12888,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
-                                       value="TRIG_FROM_PREVIOUS_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="CCU0_TRIG_OF_CHANNEL"/>
                                 <d:var name="AtomChSomcTimebaseForComparison" 
                                        type="ENUMERATION" value="TBU_TS1">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13207,9 +12973,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -13226,9 +12990,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13250,33 +13012,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13292,9 +13042,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -13384,9 +13132,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -13403,9 +13149,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13427,33 +13171,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13469,9 +13201,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -13561,9 +13291,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -13580,9 +13308,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13604,33 +13330,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13646,9 +13360,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -13738,9 +13450,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -13757,9 +13467,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13781,33 +13489,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13823,9 +13519,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -13915,9 +13609,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -13934,9 +13626,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -13958,33 +13648,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -14000,9 +13678,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
@@ -14092,9 +13768,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelUsage" 
                                        type="ENUMERATION" 
-                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="USED_BY_OTHER_DRIVERS_OR_UNUSED"/>
                               </d:ctr>
                               <d:ctr name="AtomChannelEnable" 
                                      type="IDENTIFIABLE">
@@ -14111,9 +13785,7 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelOutputControl" 
                                        type="ENUMERATION" 
-                                       value="DONT_ENABLE_CHANNEL_OUTPUT">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ENABLE_OUTPUT_AT_START"/>
                                 <d:var name="AtomChOutputDisableOnAgcTrig" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -14135,33 +13807,21 @@
                                      type="IDENTIFIABLE">
                                 <d:var name="AtomChannelModeSelect" 
                                        type="ENUMERATION" 
-                                       value="ATOM_SIG_OUTPUT_MODE_IMMEDIATE">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ATOM_SIG_OUTPUT_MODE_PWM"/>
                                 <d:var name="AtomChannelCounterValCn0" 
                                        type="INTEGER" value="0">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
                                 </d:var>
                                 <d:var name="AtomChannelCompareValueCm0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChannelCompareValueCm1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChShadowCompareValSr0" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="7500"/>
                                 <d:var name="AtomChShadowCompareValSr1" 
-                                       type="INTEGER" value="0">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="INTEGER" value="2500"/>
                                 <d:var name="AtomChUpdateEnableOnCn0Reset" 
-                                       type="BOOLEAN" value="false">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       type="BOOLEAN" value="true"/>
                                 <d:var name="AtomChEnableForceUpdate" 
                                        type="BOOLEAN" value="false">
                                   <a:a name="IMPORTER_INFO" value="@DEF"/>
@@ -14177,9 +13837,7 @@
                                 </d:var>
                                 <d:var name="AtomChannelCounterCn0Reset" 
                                        type="ENUMERATION" 
-                                       value="ON_COMPARE_MATCH_ON_CHANNEL">
-                                  <a:a name="IMPORTER_INFO" value="@DEF"/>
-                                </d:var>
+                                       value="ON_TRIGGER_FROM_PREV_CHANNEL"/>
                                 <d:var name="AtomChannelTriggerOutput" 
                                        type="ENUMERATION" 
                                        value="TRIG_FROM_PREVIOUS_CHANNEL">
