@@ -1,0 +1,40 @@
+[33mcommit dd7a51cad1a899bee487efe4d7fbb918ae8cfba4[m[33m ([m[1;36mHEAD -> [m[1;32m2021.4.10[m[33m, [m[1;31morigin/2021.4.10[m[33m)[m
+Author: luvea <15171460703@163.com>
+Date:   Mon Apr 12 10:17:52 2021 +0800
+
+    2021_4_12
+    配置了Atom和Tom的Pwm，但使用的还是PWM模块
+
+[33mcommit 3011d7556f17f98353ec04c99800fe2d044e236e[m
+Author: luvea <15171460703@163.com>
+Date:   Mon Apr 12 09:51:12 2021 +0800
+
+    2021_4_12
+    配置了ATOM和TOM模块输出PWM，但使用的还是PWM模块。
+
+[33mcommit ccf59d79f0ae05bc25e86d259fabc2653cda59d2[m[33m ([m[1;32mmaster[m[33m)[m
+Author: luvea <15171460703@163.com>
+Date:   Sat Apr 10 11:03:48 2021 +0800
+
+    2021.4.10
+    进行版本管理后的工程
+
+[33mcommit a1614cda7bf18630b6490aea16ae7f7832e2074c[m
+Author: luvea <15171460703@163.com>
+Date:   Fri Apr 9 20:40:46 2021 +0800
+
+    四电机正常eb工程
+
+[33mcommit 61b303b15ffb33c684018f678514a54632647d2a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: luvea <71417096+luvea@users.noreply.github.com>
+Date:   Fri Apr 9 20:35:28 2021 +0800
+
+    2021_4_9
+    
+    adc四电机同时采样，使用pwm模块，四电机同时转。
+
+[33mcommit 9fd480983eff2f09e9c09636e509377b1242cc3b[m
+Author: luvea <71417096+luvea@users.noreply.github.com>
+Date:   Fri Apr 9 20:32:17 2021 +0800
+
+    Initial commit
